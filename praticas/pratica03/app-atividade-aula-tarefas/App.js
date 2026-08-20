@@ -4,9 +4,20 @@ import { rotulo_input_meta, rotulo_lista_metas, rotulo_btn_cadastro } from './me
 export default function App() {
   return (
     <View style={styles.mainContainer}>
-     <TextInput placeholder={rotulo_input_meta}/>
-     <Button title={rotulo_btn_cadastro}/>
-     <Text>{rotulo_lista_metas}</Text>
+      <View style={{flexDirection:'row',
+                    justifyContent:'space-between',
+                    flex:1}}>
+        <View style={{width:'65%'}}>
+          <TextInput style={styles.inputText} 
+            placeholder={rotulo_input_meta}/>
+        </View>
+        <View style={{width:'30%'}}>
+          <Button title={rotulo_btn_cadastro}/>
+        </View>
+      </View>
+      <View style={styles.metaContainer}>
+        <Text>{rotulo_lista_metas}</Text>
+      </View>
     </View>
   );
 }
@@ -19,6 +30,15 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   mainContainer: {
-    padding: 30
+    padding: 30,
+    flex: 1,
+    flexDirection:'column'
+  },
+  inputText:{
+    borderColor: '#ccccc',
+    borderWidth: 1
+  },
+  metaContainer:{
+    flex: 6
   }
 });

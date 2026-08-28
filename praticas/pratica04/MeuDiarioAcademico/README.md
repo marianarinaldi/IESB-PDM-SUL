@@ -1,61 +1,61 @@
 # MeuDiarioAcademico
 
-Aplicativo desenvolvido com Expo e React Native para registrar disciplinas do semestre em uma interface simples e organizada.
+Aplicativo desenvolvido com Expo e React Native para registrar disciplinas do semestre em uma interface simples, funcional e organizada.
 
-## 1. Objetivo
+## 🎯 Objetivo
 
-Consolidar os fundamentos de interface em React Native, incluindo:
+Consolidar os fundamentos de UI em React Native, incluindo:
 
-- criação de projeto Expo
+- criação do projeto Expo
 - uso de componentes nativos
 - import/export de constantes
 - uso de `StyleSheet.create`
 - organização com Flexbox
-- estrutura de código em arquivos separados
+- estrutura do código em arquivos separados
 
-## 2. Descrição do app
+## 📱 Descrição do app
 
-O app apresenta uma tela inicial para cadastro rápido de disciplinas, com:
+A tela inicial permite cadastrar rapidamente as disciplinas do semestre, com:
 
-- cabeçalho com título do app
-- campo para inserir o nome da disciplina
-- botão para adicionar
-- lista de disciplinas abaixo do formulário
-- opção extra de filtro visual com `Switch`
+- cabeçalho com o nome do aplicativo
+- campo de texto para inserir a disciplina
+- botão para adicionar a disciplina
+- lista com as matérias cadastradas
+- switch opcional para demonstrar o desafio extra
 
-## 3. Comando para criar o projeto
+## 🛠️ Comando para criar o projeto
 
 ```bash
 npx create-expo-app@latest MeuDiarioAcademico --template blank
 ```
 
-## 4. Como executar
+## ▶️ Como executar
 
 ```bash
 cd MeuDiarioAcademico
 npx expo start
 ```
 
-Depois, abra o projeto no emulador Android ou no Expo Go.
+Em seguida, abra o projeto no emulador Android ou no Expo Go.
 
-## 5. Dependências utilizadas
+## 📦 Dependências utilizadas
 
 ```bash
 npx expo install react-native-safe-area-context
 ```
 
-## 6. Funcionalidades implementadas
+## ✅ Funcionalidades implementadas
 
-- SafeAreaView com área segura da tela
-- TextInput para cadastro da disciplina
+- `SafeAreaView` para manter a área segura da tela
+- `TextInput` para cadastro da disciplina
 - botão de adição com visual em `Pressable`
-- lista de disciplinas em formato visual organizado
+- lista de disciplinas organizadas visualmente
 - uso de `flex` e largura percentual (`%`)
-- arquivo `labels.js` para manter rótulos em um local centralizado
-- estilos organizados no `StyleSheet.create`
-- switch opcional para filtrar visualmente disciplinas obrigatórias
+- arquivo `labels.js` com textos reutilizáveis
+- estilos centralizados em `StyleSheet.create`
+- `Switch` opcional para simular filtro visual
 
-## 7. Estrutura do projeto
+## 📁 Estrutura do projeto
 
 ```txt
 MeuDiarioAcademico/
@@ -70,23 +70,19 @@ MeuDiarioAcademico/
 └─ node_modules/
 ```
 
-## 8. Prints da tela
+## 🖼️ Prints da tela
 
-Adicione aqui os prints gerados no emulador ou no Expo Go.
-
-```md
 ![Tela inicial do app](./assets/print1.png)
-```
 
-## 9. Observações
+## 🧠 Observações de layout
 
-A interface foi organizada com `flexDirection: 'row'`, `justifyContent` e `alignItems` para manter o formulário alinhado e visualmente equilibrado. Esse uso de Flexbox permite que o input e o botão fiquem em uma linha harmoniosa, enquanto a lista abaixo permanece organizada e legível.
+A interface foi organizada com `flexDirection: 'row'`, `justifyContent` e `alignItems` para manter o formulário alinhado e visualmente equilibrado. Esse uso de Flexbox permite que o campo de entrada e o botão fiquem em uma linha harmoniosa, enquanto a lista abaixo permanece organizada e legível.
 
-## 10. Entrega
+## 📌 Entrega
 
 - Projeto desenvolvido em Expo
 - README com instruções e prints
 - estrutura de código organizada
 - requisitos da atividade atendidos
 
-> O arquivo `node_modules` não deve ser enviado no repositório final.
+> O diretório `node_modules` não deve ser enviado no repositório final.

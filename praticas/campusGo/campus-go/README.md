@@ -2,11 +2,6 @@
 
 Aplicativo mobile com Expo Router, lista de tarefas, bolso, perfil, recursos nativos e mural de avisos consumindo a API do JSONPlaceholder.
 
-## Integrantes
-
-- Nome: Mariana Rinaldi
-- Matrícula: 2524290016
-
 ## Estrutura principal
 
 - `app/` — rotas por arquivos do Expo Router

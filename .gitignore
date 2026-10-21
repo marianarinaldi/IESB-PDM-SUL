@@ -1,7 +1,8 @@
 # Ignorar diretórios de projetos que não devem entrar no controle do repositório
 praticas/pratica04/MeuDiarioAcademico/
 praticas/pratica05/MetasSemestre/
-
+.claude/
+AGENTS.md
 # Ignorar dependências e arquivos locais do ambiente
 node_modules/
 .expo/

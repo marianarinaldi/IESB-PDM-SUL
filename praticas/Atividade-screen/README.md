@@ -79,6 +79,12 @@ A aplicação possui:
 - Bottom Tabs dentro da tela principal
 - Navegação para `GerenciarDespesa` pelo botão do cabeçalho
 
+## Imagens
+
+![Tela principal](./assets/todas.png)
+![Tela gerenciar](./assets/gerenciar.png)
+![Tela recentes](./assets/recentes.png)
+
 ## Autor
 
 Atividade prática do 4º bimestre.
